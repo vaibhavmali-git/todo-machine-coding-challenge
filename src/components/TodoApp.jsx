@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import TodoInput from "./TodoInput";
 
 const TodoApp = () => {
   const [todos, setTodos] = useState([]);
@@ -13,7 +14,7 @@ const TodoApp = () => {
         </header>
 
         {/* TodoInput */}
-        
+        <TodoInput />
       </div>
     </div>
   );
